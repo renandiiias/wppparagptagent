@@ -1,0 +1,22 @@
+TASKS - WPP Para GPT Agent
+
+TASK 1: Prospecção de Contadoras no Instagram
+- Encontrar 5 contadoras necessariamente mulheres
+- Categorizar elas procurando por hashtags (#)
+- Procurar quem esteja com a hashtag #contabilidade
+- Buscar outras hashtags que indiquem hábitos, perfil ou consumo que categorize como pessoas com condição financeira
+- Fazer isso no Instagram
+- Coletar o máximo de informações possível delas
+- Criar uma mensagem ultra personalizada e convincente (mas natural)
+- Colocar tudo isso num CSV no repositório
+
+TASK 2: Revisão de Mensagens
+- Rever todas as mensagens criadas
+- Verificar se estão interessantes
+- Avaliar se podem ser diferentes/melhoradas
+- Otimizar para maior conversão
+
+TASK 3: [A ser definida]
+- ...
+
+Repositório: https://github.com/renandiiias/wppparagptagent
