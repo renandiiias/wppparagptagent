@@ -1,22 +1,71 @@
-TASKS - WPP Para GPT Agent
+# WPP para GPT Agent — Prospecção de Contadoras no Instagram
 
-TASK 1: Prospecção de Contadoras no Instagram
-- Encontrar 5 contadoras necessariamente mulheres
-- Categorizar elas procurando por hashtags (#)
-- Procurar quem esteja com a hashtag #contabilidade
-- Buscar outras hashtags que indiquem hábitos, perfil ou consumo que categorize como pessoas com condição financeira
-- Fazer isso no Instagram
-- Coletar o máximo de informações possível delas
-- Criar uma mensagem ultra personalizada e convincente (mas natural)
-- Colocar tudo isso num CSV no repositório
+## Objetivo
+Encontrar **5 contadoras (mulheres)** no Instagram, perfilar cada uma com base nas **hashtags** usadas (profissão e sinais de poder aquisitivo), coletar dados, criar mensagens **ultra personalizadas**, revisar/otimizar e salvar tudo em **CSV** no repositório.
 
-TASK 2: Revisão de Mensagens
-- Rever todas as mensagens criadas
-- Verificar se estão interessantes
-- Avaliar se podem ser diferentes/melhoradas
-- Otimizar para maior conversão
+---
 
-TASK 3: [A ser definida]
-- ...
+## Lógica das Hashtags
+- **#contabilidade** (ou variações) ⇒ indica **profissão**.  
+- Hashtags como **#bmw, #viagem, #investimentos, #gastronomia, #businessclass** etc. ⇒ indicam **hábitos/consumo/perfil de sucesso**.  
+> Se a pessoa usa `#profissao` **e** `#bmw`, provavelmente é bem-sucedida. Use essa inferência na priorização e na personalização da abordagem.
 
-Repositório: https://github.com/renandiiias/wppparagptagent
+---
+
+## Fluxo Cronológico (Tasks)
+
+### TASK 1 — Prospecção & Coleta
+1. **Buscar perfis no Instagram**  
+   - Filtrar por mulheres contadoras usando `#contabilidade`.  
+   - Mapear hashtags adicionais que sinalizem hábitos/consumo/perfil financeiro.  
+
+2. **Coletar informações de cada perfil**  
+   - Nome exibido  
+   - @handle  
+   - WhatsApp (se disponível na bio/links)  
+   - URL do perfil  
+   - Hashtags de profissão detectadas  
+   - Hashtags de status/consumo detectadas  
+   - Trechos relevantes da bio / links externos  
+
+3. **Organizar em CSV**  
+   - Criar/atualizar `data/contadoras.csv` no repo.  
+   - Commit + push.
+
+---
+
+### TASK 2 — Mensagens Personalizadas
+1. **Redigir mensagem individual para cada contadora**  
+   - Tom natural, convincente e focado em conversão (agendamento).  
+   - Citar elementos específicos do perfil (hashtags/hábitos).  
+2. **Inserir a mensagem no CSV** na coluna `mensagem_personalizada`.
+
+---
+
+### TASK 3 — Revisão & Otimização
+1. **Revisar todas as mensagens**  
+   - Checar se estão interessantes, claras e sem repetição desnecessária.  
+2. **Otimizar para conversão**  
+   - Ajustar copy, CTA e gatilhos de interesse.
+
+---
+
+### TASK 4 — [Reservada para próximas etapas]
+- Adicionar quando necessário.
+
+---
+
+## Estrutura do CSV (sugestão)
+
+| nome | handle | whatsapp | url_perfil | hashtags_profissao | hashtags_status | bio_resumida | mensagem_personalizada | observacoes |
+|------|--------|----------|------------|--------------------|------------------|--------------|------------------------|-------------|
+
+---
+
+## Repositório
+`https://github.com/renandiiias/wppparagptagent`
+
+- Pasta sugerida: `data/contadoras.csv`
+- Commits claros: `feat: add contadoras prospect data` / `feat: add personalized messages`
+
+---
