@@ -15,7 +15,7 @@ Encontrar **5 contadoras (mulheres)** no Instagram, perfilar cada uma com base n
 ## Fluxo Cronológico (Tasks)
 
 ### TASK 1 — Prospecção & Coleta
-1. **Buscar perfis no Instagram**  
+1. **Buscar 5 perfis no Instagram**  
    - Filtrar por mulheres contadoras usando `#contabilidade`.  
    - Mapear hashtags adicionais que sinalizem hábitos/consumo/perfil financeiro.  
 
@@ -31,6 +31,7 @@ Encontrar **5 contadoras (mulheres)** no Instagram, perfilar cada uma com base n
 3. **Organizar em CSV**  
    - Criar/atualizar `data/contadoras.csv` no repo.  
    - Commit + push.
+   - Quando nao der pra commitar pode salvar os files contigo dps vc me manda. Ou envia-los usando o whatsweb (que já está logado) e mandar pra mim mesmo 5517996533627
 
 ---
 
