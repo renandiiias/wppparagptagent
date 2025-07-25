@@ -22,7 +22,7 @@ Encontrar **5 contadoras (mulheres)** no Instagram, perfilar cada uma com base n
 2. **Coletar informações de cada perfil**  
    - Nome exibido  
    - @handle  
-   - WhatsApp (se disponível na bio/links)  
+   - WhatsApp (se disponível na bio/links) - ISSO É O MAIS IMPORTANTE 
    - URL do perfil  
    - Hashtags de profissão detectadas  
    - Hashtags de status/consumo detectadas  
